@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'ConsoleBanner', :exclusive => true do
+  pod "ConsoleBanner", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "ConsoleBanner", :path => "../"
+
+  
+end
