@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ConsoleBanner: 887d8ca668aee0ad88ee1dfbc9acda6d2895b34c
+  ConsoleBanner: 00fe13efe9bcf906471f56b00d3b57916ed50ebf
 
 COCOAPODS: 0.35.0
