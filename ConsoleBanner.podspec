@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Brian Michel" => "brian.michel@gmail.com" }
   s.source           = { :git => "https://github.com/brianmichel/ConsoleBanner.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/brianmichel'
+  s.social_media_url = 'https://twitter.com/brianmichel'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
