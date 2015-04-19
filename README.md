@@ -1,6 +1,6 @@
 # ConsoleBanner
 
-[![CI Status](http://img.shields.io/travis/Brian Michel/ConsoleBanner.svg?style=flat)](https://travis-ci.org/Brian Michel/ConsoleBanner)
+[![CI Status](http://img.shields.io/travis/brianmichel/ConsoleBanner.svg?style=flat)](https://travis-ci.org/brianmichel/ConsoleBanner)
 [![Version](https://img.shields.io/cocoapods/v/ConsoleBanner.svg?style=flat)](http://cocoapods.org/pods/ConsoleBanner)
 [![License](https://img.shields.io/cocoapods/l/ConsoleBanner.svg?style=flat)](http://cocoapods.org/pods/ConsoleBanner)
 [![Platform](https://img.shields.io/cocoapods/p/ConsoleBanner.svg?style=flat)](http://cocoapods.org/pods/ConsoleBanner)
@@ -13,14 +13,18 @@ You may see these kinds of banners in page sources, or when you connect to serve
 Basically, it just looks for a `banner.txt` file in the main bundle to print out in your console before printing
 system information.
 
-You can generate some sweet ASCII art here http://patorjk.com/software/taag/
-
 Check it out...
 ![](images/ascii-art.gif)
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+You can generate some sweet ASCII art here http://patorjk.com/software/taag/
+
+I would recommend creating your `banner.txt` in something that's not Xcode, only because
+Xcode is terrible at formatting and will make you reindent everything. Sublime worked nicely
+for me.
 
 ## Installation
 
